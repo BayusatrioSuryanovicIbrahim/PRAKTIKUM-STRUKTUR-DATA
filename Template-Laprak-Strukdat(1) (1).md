@@ -121,10 +121,37 @@ https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main
 penjelasan unguided 2
 ### membuat fungsi bilangan untuk mengubah inputan angka menjadi huruf
 
-### 3. (isi dengan soal unguided 3)
+### 3. Buatkan program seperti gambar di modul
 
 ```C++
 source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka;
+    cout << "Masukkan angka: ";
+    cin >> angka;
+    for (int i = 0; i < angka ; i++) {
+        for (int k = 0; k < i; k++) {
+            cout << "  ";
+        }
+        for (int j = angka-i; j > 0; j--) {
+            cout << j << " ";
+        }
+        cout << "* ";
+        for (int j = 1 ; j <= angka-i; j++) {
+            cout << j << " ";
+        }   
+        cout << '\n';
+    }
+    for(int i =0; i < angka; i++)
+    {
+        cout << "  ";
+    }
+    cout << "*";
+    return 0;
+}
 ```
 ### Output Unguided 3 :
 
@@ -138,9 +165,10 @@ contoh :
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 3
+### sebuah program yang membentuk pola angka dengan dua sisi: angka menurun di kiri, tanda * di tengah, dan angka menaik di kanan; setiap baris makin menjorok ke kanan.
 
 ## Kesimpulan
-...
+### Berdasarkan tiga program unguided yang telah dibuat, dapat disimpulkan bahwa bahasa C++ dapat digunakan untuk mengolah input dan menghasilkan output sesuai kebutuhan. Pada Unguided 1, digunakan variabel bertipe `float` dan operator aritmatika untuk melakukan penjumlahan, pengurangan, perkalian, serta pembagian. Pada Unguided 2, dibuat fungsi `terbilang()` dan percabangan untuk mengubah bilangan bulat dari 0 sampai 100 menjadi bentuk tulisan. Pada Unguided 3, digunakan perulangan bersarang untuk membentuk pola angka menurun, tanda `*`, dan angka menaik. Ketiga program tersebut membantu memahami penggunaan variabel, input-output, fungsi, percabangan, operator, serta perulangan dalam pemrograman C++.
 
 ## Referensi
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
