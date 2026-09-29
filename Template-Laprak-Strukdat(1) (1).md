@@ -156,13 +156,11 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/UNGUIDED/UNGUIDED%203/Tangkapan%20Layar%202026-09-30%20pukul%2000.42.09.png
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-09-29%20pukul%2023.32.05.png
 
 penjelasan unguided 3
 ### sebuah program yang membentuk pola angka dengan dua sisi: angka menurun di kiri, tanda * di tengah, dan angka menaik di kanan; setiap baris makin menjorok ke kanan.
