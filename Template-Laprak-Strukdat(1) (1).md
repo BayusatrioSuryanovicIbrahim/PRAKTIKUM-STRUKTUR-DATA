@@ -18,29 +18,6 @@ Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk str
 #### 2. ...
 #### 3. ...
 
-## Guided 
-
-### 1. ...
-
-```C++
-source code guided 1
-```
-penjelasan singkat guided 1
-
-### 2. ...
-
-```C++
-source code guided 2
-```
-penjelasan singkat guided 2
-
-### 3. ...
-
-```C++
-source code guided 3
-```
-penjelasan singkat guided 3
-
 ## Unguided 
 
 ### 1. Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
@@ -71,21 +48,67 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-09-29%20pukul%2023.30.51.png
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-09-29%20pukul%2023.32.05.png
 
 penjelasan unguided 1
 ### variabel angkaPertama dan angkaKedua lalu inputan kedua variabel tersebut outputnya penjumlahan, pengurangan, perkalian, dan pembagian
 
-### 2. (isi dengan soal unguided 2)
+### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di- input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
 
 ```C++
-source code unguided 2
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string terbilang(int angka) {
+	string satuan[] = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+
+	if (angka < 10) {
+		return satuan[angka];
+	}
+	if (angka == 10) {
+		return "sepuluh";
+	}
+	if (angka == 11) {
+		return "sebelas";
+	}
+	if (angka < 20) {
+		return satuan[angka - 10] + " belas";
+	}
+	if (angka == 100) {
+		return "seratus";
+	}
+	if (angka < 100) {
+		int puluhan = angka / 10;
+		int sisa = angka % 10;
+		string hasil = satuan[puluhan] + " puluh";
+		if (sisa != 0) {
+			hasil += " " + satuan[sisa];
+		}
+		return hasil;
+	}
+
+	return "";
+}
+
+int main() {
+	int angka;
+	cout << "Masukkan angka (0-100): ";
+	cin >> angka;
+
+	if (cin.fail() || angka < 0 || angka > 100) {
+		cout << "Input harus berupa bilangan bulat dari 0 sampai 100." << endl;
+		return 1;
+	}
+
+	cout << terbilang(angka) << endl;
+	return 0;
+}
+
 ```
 ### Output Unguided 2 :
 
@@ -99,6 +122,7 @@ contoh :
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 2
+### membuat fungsi bilangan untuk mengubah inputan angka menjadi huruf
 
 ### 3. (isi dengan soal unguided 3)
 
