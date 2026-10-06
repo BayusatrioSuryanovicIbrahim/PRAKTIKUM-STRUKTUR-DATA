@@ -368,7 +368,7 @@ int main() {
 }
 ```
 ### Output Unguided 1 :
-
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%202/UNGUIDED/UNGUIDED1/Tangkapan%20Layar%202026-10-06%20pukul%2011.15.33.png
 
 penjelasan unguided 1 :
 #### Program mengimplementasikan Array 2D untuk menghitung matriks 3x3. Operasi penjumlahan dan pengurangan dihitung elemen per elemen, sedangkan perkalian matriks menggunakan tiga tingkatan perulangan (nested loop) untuk mengalikan baris matriks A dengan kolom matriks B.
@@ -435,7 +435,9 @@ void tukar(int &x, int &y, int &z) {
 }
 ```
 ### Output Unguided 2 :
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%202/UNGUIDED/UNGUIDED2/Tangkapan%20Layar%202026-10-06%20pukul%2011.16.36.png
 
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%202/UNGUIDED/UNGUIDED2/Tangkapan%20Layar%202026-10-06%20pukul%2011.17.12.png
 
 penjelasan unguided 2 :
 #### Program ini melakukan penukaran posisi nilai 3 variabel (a, b, c) secara berputar menggunakan fungsi dengan perantara pointer (*) dan reference (&), sehingga nilai pada variabel di main() langsung berubah.
@@ -528,7 +530,7 @@ int main() {
 }
 ```
 ### Output Unguided 3 :
-
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%202/UNGUIDED/UNGUIDED3/Tangkapan%20Layar%202026-10-06%20pukul%2011.18.26.png
 
 penjelasan unguided 3 :
 #### Program ini mengelola data array 1 dimensi menggunakan mwnu switch-case. Perhitungan nilai minimum dan maksimum dikembalikan melalui fungsi cariMinimum() dan cariMaksimum(), sedangkan pencetakan array dan perhitungan rata-rata dilakukan melalui prosedur.
