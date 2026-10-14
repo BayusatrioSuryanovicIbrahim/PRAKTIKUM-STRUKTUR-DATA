@@ -101,7 +101,7 @@ int main () {
 ```
 ### Output Unguided 1 :
 
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/mahasiswa/Screenshot%202026-10-14%20033955.png
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%203/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-10-14%20pukul%2019.25.56.png
 
 ##### penjelasan unguided 1 :                                                                Program ini menggunakan `struct mahasiswa` dan array `dataMahasiswa` untuk menyimpan data mahasiswa serta nilai UTS, UAS, dan tugas dalam satu struktur yang terorganisir, lalu fungsi `nilaiAkhir()` dengan parameter pointer menghitung nilai akhir berdasarkan bobot 0,3 untuk UTS, 0,4 untuk UAS, dan 0,3 untuk tugas, sehingga hasil perhitungan dapat disimpan dan ditampilkan secara otomatis pada setiap mahasiswa.
 
@@ -157,6 +157,10 @@ int main()
 }   
 ```
 ### Output Unguided 2 :
+
+##### Output 1
+
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%203/UNGUIDED/UNGUIDED%202/Tangkapan%20Layar%202026-10-14%20pukul%2019.34.03.png
 
 ##### penjelasan unguided 2 :                                                               Program ini mengimplementasikan ADT pada mata pelajaran dengan membagi kodenya menjadi tiga file, yaitu `pelajaran.h` untuk deklarasi `struct` dan fungsi, `pelajaran.cpp` untuk implementasi pembuatan objek dan menampilkan data, serta `main.cpp` untuk menjalankan program utama; dengan cara ini, struktur data `pelajaran` dapat dibuat dan digunakan secara modular sehingga lebih rapi, mudah dipahami, dan mudah dikembangkan.
 
@@ -229,7 +233,8 @@ int main ()
 ### Output Unguided 3 :
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/array/Screenshot%202026-10-14%20034047.png
+
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%203/UNGUIDED/UNGUIDED%203/Tangkapan%20Layar%202026-10-14%20pukul%2019.38.55.png
 
 #### penjelasan unguided 3 :                                                                Program ini menggunakan array 3 dimensi untuk merepresentasikan dua matriks 3x3 yang disimpan dalam satu variabel `data`, lalu prosedur `tampilkan()` digunakan untuk menampilkan isi kedua matriks tersebut, sedangkan fungsi `ubah()` dan `ubahmatriks()` bekerja untuk menukar elemen pada posisi tertentu antara matriks pertama dan matriks kedua sesuai input yang diberikan pengguna, sehingga program dapat menunjukkan bagaimana mekanisme pengolahan data dengan array dan pointer diterapkan dalam praktik.
 
