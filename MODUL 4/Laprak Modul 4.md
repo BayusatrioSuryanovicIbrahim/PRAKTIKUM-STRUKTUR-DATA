@@ -501,7 +501,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%204/UNGUIDED/Tangkapan%20Layar%202026-10-20%20pukul%2021.30.05.png
 
 
 penjelasan unguided 1 :
@@ -552,7 +552,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%204/UNGUIDED/Tangkapan%20Layar%202026-10-20%20pukul%2021.32.20.png
 
 
 penjelasan unguided 2 :
