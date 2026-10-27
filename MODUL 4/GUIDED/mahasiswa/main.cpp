@@ -1,5 +1,5 @@
 // main.cpp
-#include "mahasiswa/list.h"
+#include "list.h"
 
 #include <iostream>
 using namespace std;
