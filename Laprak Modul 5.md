@@ -555,8 +555,7 @@ int main()
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
+<img width="902" height="94" alt="Tangkapan Layar 2026-10-27 pukul 22 58 47" src="https://github.com/user-attachments/assets/edc2ee3d-252b-41f8-8678-66d50ebcc17a" />
 
 penjelasan unguided 1 : 
 Program Unguided 1 membuat singly linked list, lalu memasukkan nilai 2, 0, 8, 12, dan 9 satu per satu menggunakan `insertFirst`. Karena setiap nilai ditambahkan ke bagian awal list, urutan tampilannya menjadi terbalik, yaitu `9 12 8 0 2`.
@@ -683,7 +682,7 @@ int main()
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+<img width="907" height="78" alt="Tangkapan Layar 2026-10-27 pukul 23 14 24" src="https://github.com/user-attachments/assets/476e9977-38d4-4509-aace-f6c97cfeec81" />
 
 penjelasan unguided 2 :
 Program Unguided 2 membentuk singly linked list dengan nilai 2, 0, 8, 12, dan 9, lalu mencari nilai 8 menggunakan fungsi `findElm`. Fungsi menelusuri node dari awal hingga nilai ditemukan atau mencapai akhir list. Karena nilai 8 ditemukan, program menampilkan pesan `8 ditemukan dalam list`.
@@ -808,7 +807,7 @@ int main()
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+<img width="903" height="105" alt="Tangkapan Layar 2026-10-27 pukul 23 26 34" src="https://github.com/user-attachments/assets/cb264b1b-19d4-433a-a408-2188e27db991" />
 
 penjelasan unguided 3 :
 Program Unguided 3 membuat singly linked list yang berisi nilai 2, 0, 8, 12, dan 9. Fungsi `sumInfo` menelusuri setiap node dan menjumlahkan nilainya, kemudian hasilnya ditampilkan. Total seluruh nilai adalah 31.
