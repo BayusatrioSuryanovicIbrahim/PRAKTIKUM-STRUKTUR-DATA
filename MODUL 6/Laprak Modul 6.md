@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 6 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 6 - DOUBLY LINKED LIST (BAGIAN PERTAMA)</h1>
 <p align="center">Bayusatrio Suryanovic Ibrahim - 109082500047</p>
 
 ## Dasar Teori
@@ -444,7 +444,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%206/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-11-04%20pukul%2022.23.52.png
 
 #### penjelasan unguided 1 
 Program Unguided 1 menyimpan data kendaraan berupa nomor polisi, warna, dan tahun ke dalam doubly linked list. Data ditambahkan di akhir list, sementara fungsi `cekDuplikat` memeriksa agar nomor polisi yang sama tidak dimasukkan kembali. Setelah input selesai, program menampilkan data kendaraan dari simpul terakhir ke simpul pertama.
@@ -619,7 +619,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%206/UNGUIDED/UNGUIDED%202/Tangkapan%20Layar%202026-11-04%20pukul%2023.14.03.png
 
 #### penjelasan unguided 2 
 Program Unguided 2 menambahkan fitur pencarian kendaraan pada doubly linked list. Setelah data kendaraan dimasukkan, program menampilkan isi list dan meminta nomor polisi yang dicari. Fungsi `findElm` menelusuri list berdasarkan nomor polisi; jika cocok, program menampilkan nomor polisi, warna, dan tahun kendaraan, sedangkan jika tidak ditemukan, program menampilkan pesan bahwa kendaraan tidak ditemukan.
@@ -844,7 +844,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%206/UNGUIDED/UNGUIDED%203/Tangkapan%20Layar%202026-11-04%20pukul%2023.21.14.png
 
 #### penjelasan unguided 3
 Program Unguided 3 menambahkan fitur penghapusan data kendaraan dari doubly linked list. Program mencari kendaraan berdasarkan nomor polisi yang dimasukkan, lalu menghapus simpul tersebut dengan operasi yang sesuai: `deleteFirst` jika berada di awal, `deleteLast` jika berada di akhir, atau `deleteAfter` jika berada di tengah. Memori simpul yang dihapus kemudian dibebaskan, dan isi list ditampilkan kembali untuk memperlihatkan hasilnya. Jika nomor polisi tidak ditemukan, program menampilkan pesan bahwa data tidak ditemukan.
