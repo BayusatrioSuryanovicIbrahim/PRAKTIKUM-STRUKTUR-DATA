@@ -248,8 +248,8 @@ int main() {
 ```
 ### Output Unguided 1 :
 
-##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+##### Output 
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%207/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-11-17%20pukul%2022.56.44.png
 
 #### penjelasan unguided 1
 Stack dibuat menggunakan array dan diisi dengan angka 3, 4, 8, 2, 3, dan 9. Proses push dan pop dilakukan sesuai prinsip LIFO, lalu fungsi balikStack digunakan untuk membalik urutan elemen sehingga hasil akhirnya menjadi terbalik dari urutan awal.
@@ -384,8 +384,8 @@ int main() {
 ```
 ### Output Unguided 2 :
 
-##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+##### Output 
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%207/UNGUIDED/UNGUIDED%202/Tangkapan%20Layar%202026-11-17%20pukul%2023.05.18.png
 
 #### penjelasan unguided 2
 Stack digunakan untuk memasukkan data dengan prosedur pushAscending agar urutan data tetap naik. Setelah semua data masuk, fungsi balikStack dipanggil untuk membalik isi stack sehingga program dapat menampilkan urutan yang berbeda dari susunan awal.
@@ -523,8 +523,8 @@ int main() {
 ```
 ### Output Unguided 3 :
 
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+##### Output 
+https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%207/UNGUIDED/UNGUIDED%203/Tangkapan%20Layar%202026-11-17%20pukul%2023.11.32.png
 
 #### penjelasan unguided 3
 Program membaca input angka dari user dan menyimpannya ke stack sampai tombol enter ditekan. Data tersebut kemudian ditampilkan dan dibalik dengan fungsi balikStack, sehingga terlihat bahwa stack mengikuti prinsip LIFO dalam proses penyimpanan dan pengolahan data.
