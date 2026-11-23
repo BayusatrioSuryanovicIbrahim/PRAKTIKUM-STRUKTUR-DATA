@@ -188,7 +188,7 @@ int main() {
 
 ```
 #### Penjelasan Guided 1
-Guided 1 mengimplementasikan queue dengan linked list dan prinsip FIFO. Insert menambah elemen di belakang (tail), sedangkan deleteQueue menghapus elemen terdepan (head). Program menguji penambahan nilai 5, 2, dan 7, pencarian elemen, penghapusan elemen pertama, serta pengosongan queue dengan delAll.
+Mengimplementasikan queue dengan linked list dan prinsip FIFO. Insert menambah elemen di belakang (tail), sedangkan deleteQueue menghapus elemen terdepan (head). Program menguji penambahan nilai 5, 2, dan 7, pencarian elemen, penghapusan elemen pertama, serta pengosongan queue dengan delAll.
 
 ## Guided 2
 
@@ -322,7 +322,7 @@ int main(){
 }
 ```
 #### Penjelasan Guided 2
-Guided 2 menggunakan queue array melingkar berkapasitas lima elemen. Enqueue menambah data di belakang dan dequeue menghapus data dari depan, dengan indeks bergerak melingkar menggunakan modulo. Saat enam nama ditambahkan, nama keenam ditolak karena queue penuh; setelah empat data dihapus, nama Fathur tersisa.
+Menggunakan queue array melingkar berkapasitas lima elemen. Enqueue menambah data di belakang dan dequeue menghapus data dari depan, dengan indeks bergerak melingkar menggunakan modulo. Saat enam nama ditambahkan, nama keenam ditolak karena queue penuh; setelah empat data dihapus, nama Fathur tersisa.
 
 ## Unguided 
 
@@ -447,10 +447,10 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided 1](<https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%208/UNGUIDED/UNGUIDED%201/Tangkapan%20Layar%202026-11-24%20pukul%2001.19.20.png>)
 
 #### penjelasan unguided 1 
-Queue pada Unguided 1 menggunakan array berkapasitas lima dengan head tetap di awal dan tail bergerak. Saat dequeue, elemen tersisa digeser ke depan agar ruang kosong dapat digunakan kembali. Program memasukkan 5, 2, dan 7, lalu menghapus 5; setelah 4 ditambahkan, dua dequeue berikutnya menyisakan 4.
+Menggunakan array berkapasitas lima dengan head tetap di awal dan tail bergerak. Saat dequeue, elemen tersisa digeser ke depan agar ruang kosong dapat digunakan kembali. Program memasukkan 5, 2, dan 7, lalu menghapus 5; setelah 4 ditambahkan, dua dequeue berikutnya menyisakan 4.
 
 ### 2. Buatlah implementasi ADT Queue pada file “queue.cpp” dengan menerapkan mekanisme queue Alternatif 2 (head bergerak, tail bergerak).
 
@@ -578,10 +578,10 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided 2](<https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%208/UNGUIDED/UNGUIDED%202/Tangkapan%20Layar%202026-11-24%20pukul%2001.19.29.png>)
 
 #### penjelasan unguided 2
-Queue pada Unguided 2 menggunakan array dengan head dan tail yang bergerak. Dequeue hanya menggeser head; jika tail mencapai batas array dan masih ada ruang di depan, elemen dipindahkan ke awal sebelum enqueue. Pada program, setelah nilai 5, 2, dan 7 dimasukkan, nilai 5, 2, dan 7 dikeluarkan secara berurutan sehingga nilai 4 tersisa.
+Menggunakan array dengan head dan tail yang bergerak. Dequeue hanya menggeser head; jika tail mencapai batas array dan masih ada ruang di depan, elemen dipindahkan ke awal sebelum enqueue. Pada program, setelah nilai 5, 2, dan 7 dimasukkan, nilai 5, 2, dan 7 dikeluarkan secara berurutan sehingga nilai 4 tersisa.
 
 ### 3. Buatlah implementasi ADT Queue pada file “queue.cpp” dengan menerapkan mekanisme queue Alternatif 3 (head dan tail berputar).
 
@@ -704,10 +704,10 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided 3](<https://github.com/BayusatrioSuryanovicIbrahim/PRAKTIKUM-STRUKTUR-DATA/blob/main/MODUL%208/UNGUIDED/UNGUIDED%203/Tangkapan%20Layar%202026-11-24%20pukul%2001.19.37.png>)
 
 #### penjelasan unguided 3
-Queue pada Unguided 3 menggunakan array melingkar berkapasitas lima. Head dan tail bergerak melingkar dengan operasi modulo, sementara queue penuh saat posisi berikutnya dari tail bertemu head. Program memasukkan 5, 2, dan 7, menghapus 5, lalu menambahkan 4; dua penghapusan berikutnya menyisakan 4.
+Menggunakan array melingkar berkapasitas lima. Head dan tail bergerak melingkar dengan operasi modulo, sementara queue penuh saat posisi berikutnya dari tail bertemu head. Program memasukkan 5, 2, dan 7, menghapus 5, lalu menambahkan 4; dua penghapusan berikutnya menyisakan 4.
 
 ## Kesimpulan
 Queue menerapkan prinsip FIFO, yaitu elemen yang pertama masuk akan keluar lebih dahulu. Queue dapat diimplementasikan menggunakan linked list maupun array dengan mekanisme pergeseran atau melingkar.
